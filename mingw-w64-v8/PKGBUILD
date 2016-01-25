@@ -11,7 +11,7 @@ url="http://code.google.com/p/v8"
 license=("BSD")
 makedepends=("gyp-svn")
 depends=("${MINGW_PACKAGE_PREFIX}-readline")
-options=('!emptydirs !strip')
+options=('!emptydirs' '!strip')
 source=("https://github.com/v8/v8/archive/${pkgver}.tar.gz")
 md5sums=('b75b5a0308cd0a03309f5bf7b26aa9da')
 
